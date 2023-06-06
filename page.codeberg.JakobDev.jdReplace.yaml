@@ -24,12 +24,10 @@ modules:
       - python ./install-unix-datafiles.py --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdReplace/archive/4.0.tar.gz
-        sha256: 17efeea7354f8896388397398887da876fe770f857dd0a09ca147ccf804f7396
+        url: https://codeberg.org/JakobDev/jdReplace/archive/4.1.tar.gz
+        sha256: 53e8057adce3e95c2721af486d4ac8ed1e4a51d2372fdd4c39dff1b91b8465be
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdReplace/releases/latest
           version-query: .tag_name
           url-query: .tarball_url
-      - type: patch
-        path: AppStreamFix.patch
