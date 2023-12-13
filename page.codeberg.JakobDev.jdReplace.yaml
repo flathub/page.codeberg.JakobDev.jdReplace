@@ -24,8 +24,8 @@ modules:
       - python ./install-unix-datafiles.py --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdReplace/archive/4.1.tar.gz
-        sha256: 53e8057adce3e95c2721af486d4ac8ed1e4a51d2372fdd4c39dff1b91b8465be
+        url: https://codeberg.org/JakobDev/jdReplace/archive/4.2.tar.gz
+        sha256: 4f77edb1db2b1184f4303e29e6cc23010502f85939536ddb4b5d6ba838e04128
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdReplace/releases/latest
